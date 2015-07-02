@@ -22,7 +22,7 @@ GEM
       multi_json (~> 1.0)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
-    solid_assert (0.7.3)
+    test-unit (2.0.0.0)
     websocket (1.2.2)
 
 PLATFORMS
@@ -31,7 +31,7 @@ PLATFORMS
 DEPENDENCIES
   cucumber
   selenium-webdriver (~> 2.46.2)
-  solid_assert (~> 0.7.3)
+  test-unit
 
 BUNDLED WITH
    1.10.5

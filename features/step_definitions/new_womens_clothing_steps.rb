@@ -1,8 +1,9 @@
 require 'selenium-webdriver'
-
+require 'test/unit/assertions'
 require_relative '../../pages/home_page'
 require_relative '../../pages/navigation_page'
 require_relative '../../pages/list_page'
+World(Test::Unit::Assertions)
 
 driver = Selenium::WebDriver.for :firefox
 
