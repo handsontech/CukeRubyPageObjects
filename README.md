@@ -15,3 +15,8 @@ mkdir features/step_definitions
 mkdir features/support
 
 touch features/<featurename>.feature
+
+
+Running from terminal to view results in html:
+=============================================
+cucumber features/<feature name>.feature --format html > ~/Downloads/Features.html
